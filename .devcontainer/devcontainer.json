@@ -1,0 +1,14 @@
+{
+	"name": "PHP in Docker",
+	"forwardPorts": [
+		3306,
+		80
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"zobo.php-intellisense"
+			]
+		}
+	}
+}
