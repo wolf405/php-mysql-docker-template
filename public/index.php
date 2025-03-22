@@ -1,3 +1,8 @@
+<?php
+require '../vendor/autoload.php';
+
+use Application\Hello;
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -7,5 +12,6 @@
 </head>
 <body>
     <h1>PHP & Mysql</h1>
+    <p><?= Hello::message() ?></p>
 </body>
 </html>
